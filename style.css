@@ -116,11 +116,15 @@ a {
   color: var(--warm-main-background);
   letter-spacing: 0.2rem;
   text-transform: uppercase;
-  border: none;
-  background-color: #b5523c;
+  background-color: var(--primary-accent);
   padding: 1.4rem 2.8rem;
   margin: 2.8rem 0;
-  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #984938;
+  transform: translateY(-2px);
 }
 
 .hellas {
