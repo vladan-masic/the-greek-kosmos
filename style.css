@@ -1,3 +1,11 @@
+/* --paper: #f3eee3;
+--ink: #202c2e;
+--rust: #a34c32;
+--line: #d7cbb7;
+--blue: #1b3039;
+--gold: #ad8e5d;
+ */
+
 :root {
   --warm-main-background: #eae2d3;
   --secondary-neutral: #d6c9b4;
@@ -6,9 +14,9 @@
   --natural-accent: #6b7f5b;
   --primary-dark: #1e1e1e;
 
-  --serif: "Source Serif 4", serif;
-  --heading: "Cinzel", serif;
-  --sans-serif: "Inter", sans-serif;
+  --serif: "Source Serif 4", Georgia, serif;
+  --heading: "Cinzel", Georgia, serif;
+  --sans-serif: "Inter", Arial, sans-serif;
 }
 
 * {
@@ -23,6 +31,8 @@ html {
 
 body {
   font-family: var(--serif);
+  color: var(--primary-dark);
+  background-color: var(--warm-main-background);
 }
 
 a {
@@ -32,7 +42,7 @@ a {
 
 .main-header {
   padding: 0 9rem;
-  background-color: var(--warm-main-background);
+  /* background-color: var(--warm-main-background); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,10 +68,10 @@ a {
 }
 
 .main-menu-item:hover {
-  border-bottom: 0.2rem solid #b5523c;
+  border-bottom: 0.2rem solid var(--primary-accent);
 }
 
-button {
+.search-btn {
   padding: 0.8rem;
   border: none;
   cursor: pointer;
@@ -77,4 +87,25 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.eyebrow {
+  font-family: var(--sans-serif);
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: var(--primary-accent);
+  text-transform: uppercase;
+}
+
+.heading-primary {
+  font-family: var(--heading);
+  font-size: 7.4rem;
+  font-weight: 400;
+}
+
+.description-primary {
+  font-size: 2.2rem;
+}
+
+.btn-primary {
 }
