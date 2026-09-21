@@ -31,8 +31,8 @@ a {
 }
 
 .main-header {
+  /* width: 100%; */
   padding: 0 9rem;
-  /* height: 6.6rem; */
   background-color: var(--warm-main-background);
   display: flex;
   justify-content: space-between;
@@ -48,14 +48,15 @@ a {
 .main-menu {
   display: flex;
   align-items: center;
-  gap: 3.8rem;
+  gap: 4.2rem;
   font-family: var(--sans-serif);
   font-size: 1.8rem;
-  font-weight: 400;
+  /* font-weight: 300; */
 }
 
 .main-menu-item {
   padding: 3rem 0;
+  border-bottom: 0.2rem solid var(--warm-main-background);
 }
 
 .main-menu-item:hover {
