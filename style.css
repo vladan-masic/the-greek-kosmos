@@ -31,7 +31,6 @@ a {
 }
 
 .main-header {
-  /* width: 100%; */
   padding: 0 9rem;
   background-color: var(--warm-main-background);
   display: flex;
@@ -51,7 +50,6 @@ a {
   gap: 4.2rem;
   font-family: var(--sans-serif);
   font-size: 1.8rem;
-  /* font-weight: 300; */
 }
 
 .main-menu-item {
@@ -64,7 +62,19 @@ a {
 }
 
 button {
+  padding: 0.8rem;
   border: none;
   cursor: pointer;
   background-color: var(--warm-main-background);
+}
+
+.hero {
+  background-image: url("images/hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
