@@ -1,3 +1,12 @@
+:root {
+  --warm-main-background: #eae2d3;
+  --secondary-neutral: #d6c9b4;
+  --primary-accent: #b5523c;
+  --secondary-accent: #2e4f6f;
+  --natural-accent: #6b7f5b;
+  --primary-dark: #1e1e1e;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +15,11 @@
 
 html {
   font-size: 62.5%;
+}
+
+.main-header {
+  height: 6.6rem;
+  background-color: var(--warm-main-background);
+  display: flex;
+  justify-content: space-between;
 }
