@@ -5,6 +5,10 @@
   --secondary-accent: #2e4f6f;
   --natural-accent: #6b7f5b;
   --primary-dark: #1e1e1e;
+
+  --serif: "Source Serif 4", serif;
+  --heading: "Cinzel", serif;
+  --sans-serif: "Inter", sans-serif;
 }
 
 * {
@@ -17,9 +21,25 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: var(--serif);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
 .main-header {
+  padding: 0 7.2rem;
   height: 6.6rem;
   background-color: var(--warm-main-background);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu {
+  display: flex;
+  gap: 2.8rem;
 }
